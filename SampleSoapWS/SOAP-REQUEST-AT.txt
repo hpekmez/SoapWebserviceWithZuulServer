@@ -1,0 +1,20 @@
+
+
+--uygulamalari ayaga kaldirip, asagidaki gibi URL ve REQUEST ile soap ile istek attiginizda ,responsu gorebilirsiniz.
+
+
+--ENDPOINT URL
+http://localhost:8762/demo/hasan
+
+
+--REQUEST ORNEK
+
+<ns0:Envelope xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://example.com/demo">
+    <ns0:Header/>
+    <ns0:Body>
+        <ser:getCustomerUsageRequest>
+        <ser:region>Sinop</ser:region>
+        <ser:size>Average</ser:size>
+        </ser:getCustomerUsageRequest>
+    </ns0:Body>
+</ns0:Envelope>
