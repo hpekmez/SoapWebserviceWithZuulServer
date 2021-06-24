@@ -1,11 +1,29 @@
 
 
---uygulamalari ayaga kaldirip, asagidaki gibi URL ve REQUEST ile soap ile istek attiginizda ,responsu gorebilirsiniz.
+--uygulamalari ayaga kaldirip, asagidaki  URL ve REQUEST ile soap ile istek attiginizda ,responsu gorebilirsiniz.
 
 
---ENDPOINT URL
+########## DEMO UYGULAMASI PORTUNDAN CAGIRARK ##########
+
+--WSDL URL (direk demo uygulaması portundan erisim ile)
+http://localhost:8035/hasan/customers.wsdl
+
+
+--ENDPOINT URL (direk demo uygulaması portundan erisim ile)
+http://localhost:8035/hasan
+
+
+########## ZUUL PORTUNDAN CAGIRARK ##########
+
+--WSDL URL (zuul kullanarak)
+http://localhost:8762/demo/hasan/customers.wsdl
+
+
+--ENDPOINT URL (zuul kullanarak)
 http://localhost:8762/demo/hasan
 
+
+########## SOAP REQUEST ORNEGI ##########
 
 --REQUEST ORNEK
 
